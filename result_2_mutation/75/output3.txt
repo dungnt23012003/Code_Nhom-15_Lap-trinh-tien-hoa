@@ -1,0 +1,500 @@
+
+result 1
+0: 8 6 4 4 3 | waste: 0/25
+1: 4 7 4 | waste: 0/15
+2: 9 9 7 | waste: 0/25
+3: 7 6 9 | waste: 0/22
+4: 7 8 | waste: 0/15
+5: 8 3 4 | waste: 0/15
+6: 4 4 10 7 | waste: 0/25
+7: 9 4 | waste: 0/13
+8: 5 7 3 | waste: 0/15
+9: 7 7 6 | waste: 0/20
+10: 10 | waste: 0/10
+11: 3 4 5 8 5 | waste: 0/25
+12: 7 7 8 | waste: 0/22
+13: 4 4 5 7 | waste: 0/20
+14: 7 3 3 7 | waste: 0/20
+15: 7 6 | waste: 0/13
+16: 5 5 10 | waste: 0/20
+17: 10 | waste: 0/10
+18: 4 10 8 | waste: 0/22
+19: 7 6 | waste: 0/13
+20: 10 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 107
+
+result 2
+0: 5 7 9 4 | waste: 0/25
+1: 9 7 9 | waste: 0/25
+2: 10 4 8 | waste: 0/22
+3: 4 5 4 7 | waste: 0/20
+4: 7 5 8 | waste: 0/20
+5: 3 7 | waste: 0/10
+6: 7 6 7 | waste: 0/20
+7: 10 | waste: 0/10
+8: 6 4 5 | waste: 0/15
+9: 7 10 8 | waste: 0/25
+10: 7 6 | waste: 0/13
+11: 7 3 | waste: 0/10
+12: 7 8 4 3 | waste: 0/22
+13: 7 4 4 | waste: 0/15
+14: 7 3 10 | waste: 0/20
+15: 7 10 8 | waste: 0/25
+16: 6 8 7 4 | waste: 0/25
+17: 5 4 3 3 | waste: 0/15
+18: 9 4 | waste: 0/13
+19: 10 5 | waste: 0/15
+20: 6 4 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 77
+
+result 3
+0: 9 4 7 | waste: 0/20
+1: 8 7 | waste: 0/15
+2: 8 7 4 3 | waste: 0/22
+3: 10 5 | waste: 0/15
+4: 7 6 7 | waste: 0/20
+5: 6 4 | waste: 0/10
+6: 7 3 3 | waste: 0/13
+7: 5 3 7 7 3 | waste: 0/25
+8: 4 7 8 6 | waste: 0/25
+9: 10 | waste: 0/10
+10: 4 10 4 4 | waste: 0/22
+11: 4 5 4 | waste: 0/13
+12: 7 3 | waste: 0/10
+13: 8 7 | waste: 0/15
+14: 5 5 | waste: 0/10
+15: 8 5 | waste: 0/13
+16: 9 7 4 | waste: 0/20
+17: 9 9 4 | waste: 0/22
+18: 6 7 | waste: 0/13
+19: 7 7 8 | waste: 0/22
+20: 10 | waste: 0/10
+21: 10 6 4 | waste: 0/20
+22: 10 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 78
+
+result 4
+0: 7 6 4 8 | waste: 0/25
+1: 10 8 4 | waste: 0/22
+2: 4 6 | waste: 0/10
+3: 8 5 | waste: 0/13
+4: 5 4 4 | waste: 0/13
+5: 7 4 7 4 | waste: 0/22
+6: 9 4 | waste: 0/13
+7: 7 6 7 | waste: 0/20
+8: 9 4 7 | waste: 0/20
+9: 7 3 7 3 | waste: 0/20
+10: 7 3 | waste: 0/10
+11: 7 6 | waste: 0/13
+12: 8 3 9 | waste: 0/20
+13: 10 | waste: 0/10
+14: 4 7 9 | waste: 0/20
+15: 7 3 | waste: 0/10
+16: 7 7 8 | waste: 0/22
+17: 10 5 5 | waste: 0/20
+18: 10 | waste: 0/10
+19: 5 7 10 | waste: 0/22
+20: 10 5 | waste: 0/15
+21: 6 4 | waste: 0/10
+22: 3 8 4 | waste: 0/15
+fitness: 1 total_wastage: 0 found at: 58
+
+result 5
+0: 3 4 4 9 | waste: 0/20
+1: 10 7 5 | waste: 0/22
+2: 7 6 | waste: 0/13
+3: 7 7 8 3 | waste: 0/25
+4: 8 4 3 | waste: 0/15
+5: 7 3 | waste: 0/10
+6: 7 8 5 | waste: 0/20
+7: 10 | waste: 0/10
+8: 3 4 7 6 | waste: 0/20
+9: 5 8 7 | waste: 0/20
+10: 7 7 4 4 | waste: 0/22
+11: 10 | waste: 0/10
+12: 7 5 7 6 | waste: 0/25
+13: 9 4 | waste: 0/13
+14: 6 4 | waste: 0/10
+15: 5 3 8 4 | waste: 0/20
+16: 5 10 | waste: 0/15
+17: 10 4 6 | waste: 0/20
+18: 4 7 9 | waste: 0/20
+19: 7 8 | waste: 0/15
+20: 9 7 4 | waste: 0/20
+21: 10 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 122
+
+result 6
+0: 4 4 5 | waste: 0/13
+1: 7 4 7 7 | waste: 0/25
+2: 8 5 7 | waste: 0/20
+3: 8 5 7 | waste: 0/20
+4: 9 9 7 | waste: 0/25
+5: 8 5 | waste: 0/13
+6: 10 | waste: 0/10
+7: 7 4 8 3 3 | waste: 0/25
+8: 7 3 | waste: 0/10
+9: 4 4 4 10 3 | waste: 0/25
+10: 5 6 9 | waste: 0/20
+11: 6 6 8 | waste: 0/20
+12: 10 | waste: 0/10
+13: 9 7 4 | waste: 0/20
+14: 10 4 7 4 | waste: 0/25
+15: 7 7 6 | waste: 0/20
+16: 7 8 3 4 | waste: 0/22
+17: 10 | waste: 0/10
+18: 10 7 3 | waste: 0/20
+19: 7 6 5 4 | waste: 0/22
+fitness: 1 total_wastage: 0 found at: 64
+
+result 7
+0: 8 7 | waste: 0/15
+1: 7 7 4 4 | waste: 0/22
+2: 7 4 4 | waste: 0/15
+3: 8 8 6 | waste: 0/22
+4: 10 | waste: 0/10
+5: 7 3 | waste: 0/10
+6: 8 7 | waste: 0/15
+7: 10 | waste: 0/10
+8: 7 9 4 | waste: 0/20
+9: 3 9 3 | waste: 0/15
+10: 7 7 3 8 | waste: 0/25
+11: 9 8 5 | waste: 0/22
+12: 7 9 5 4 | waste: 0/25
+13: 5 5 3 | waste: 0/13
+14: 5 6 6 4 4 | waste: 0/25
+15: 6 7 | waste: 0/13
+16: 6 7 | waste: 0/13
+17: 4 5 7 4 | waste: 0/20
+18: 10 | waste: 0/10
+19: 10 | waste: 0/10
+20: 7 4 7 4 3 | waste: 0/25
+21: 10 10 | waste: 0/20
+fitness: 1 total_wastage: 0 found at: 67
+
+result 8
+0: 7 7 6 | waste: 0/20
+1: 8 5 8 4 | waste: 0/25
+2: 10 7 8 | waste: 0/25
+3: 5 10 | waste: 0/15
+4: 4 5 4 9 | waste: 0/22
+5: 7 6 7 | waste: 0/20
+6: 8 5 7 | waste: 0/20
+7: 7 4 3 3 3 | waste: 0/20
+8: 4 3 7 8 | waste: 0/22
+9: 7 3 | waste: 0/10
+10: 8 7 7 | waste: 0/22
+11: 10 | waste: 0/10
+12: 4 4 9 4 4 | waste: 0/25
+13: 10 | waste: 0/10
+14: 10 3 | waste: 0/13
+15: 10 | waste: 0/10
+16: 4 5 4 | waste: 0/13
+17: 9 5 7 4 | waste: 0/25
+18: 7 6 | waste: 0/13
+19: 6 7 9 | waste: 0/22
+20: 7 6 | waste: 0/13
+fitness: 1 total_wastage: 0 found at: 38
+
+result 9
+0: 8 5 | waste: 0/13
+1: 7 3 | waste: 0/10
+2: 7 9 4 | waste: 0/20
+3: 10 3 | waste: 0/13
+4: 10 | waste: 0/10
+5: 7 6 | waste: 0/13
+6: 7 9 4 | waste: 0/20
+7: 10 4 3 3 | waste: 0/20
+8: 7 8 5 | waste: 0/20
+9: 7 3 | waste: 0/10
+10: 7 6 7 | waste: 0/20
+11: 8 5 | waste: 0/13
+12: 8 5 | waste: 0/13
+13: 9 4 | waste: 0/13
+14: 4 6 3 | waste: 0/13
+15: 7 8 | waste: 0/15
+16: 10 | waste: 0/10
+17: 10 8 7 | waste: 0/25
+18: 7 4 4 | waste: 0/15
+19: 6 9 7 | waste: 0/22
+20: 5 7 4 4 | waste: 0/20
+21: 7 6 5 4 | waste: 0/22
+22: 10 | waste: 0/10
+23: 4 7 4 | waste: 0/15
+fitness: 1 total_wastage: 0 found at: 86
+
+result 10
+0: 8 7 7 | waste: 0/22
+1: 5 7 8 | waste: 0/20
+2: 7 6 8 4 | waste: 0/25
+3: 10 10 | waste: 0/20
+4: 7 4 4 | waste: 0/15
+5: 7 3 | waste: 0/10
+6: 7 9 6 | waste: 0/22
+7: 4 9 | waste: 0/13
+8: 7 4 5 4 | waste: 0/20
+9: 7 3 4 4 4 | waste: 0/22
+10: 7 3 | waste: 0/10
+11: 5 8 | waste: 0/13
+12: 10 | waste: 0/10
+13: 4 7 10 4 | waste: 0/25
+14: 8 5 6 6 | waste: 0/25
+15: 10 | waste: 0/10
+16: 7 3 | waste: 0/10
+17: 7 10 3 | waste: 0/20
+18: 6 9 5 | waste: 0/20
+19: 7 5 8 | waste: 0/20
+20: 7 3 | waste: 0/10
+21: 9 4 | waste: 0/13
+fitness: 1 total_wastage: 0 found at: 54
+
+result 11
+0: 6 7 | waste: 0/13
+1: 10 | waste: 0/10
+2: 8 3 7 4 | waste: 0/22
+3: 6 7 7 | waste: 0/20
+4: 8 8 4 | waste: 0/20
+5: 6 7 | waste: 0/13
+6: 7 7 4 4 3 | waste: 0/25
+7: 5 10 7 | waste: 0/22
+8: 9 4 | waste: 0/13
+9: 9 7 4 | waste: 0/20
+10: 4 7 4 5 | waste: 0/20
+11: 4 3 8 | waste: 0/15
+12: 9 6 5 | waste: 0/20
+13: 5 3 7 3 4 | waste: 0/22
+14: 4 7 3 8 | waste: 0/22
+15: 9 4 | waste: 0/13
+16: 7 6 | waste: 0/13
+17: 10 | waste: 0/10
+18: 10 5 5 | waste: 0/20
+19: 10 | waste: 0/10
+20: 7 7 8 | waste: 0/22
+21: 10 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 80
+
+result 12
+0: 8 7 | waste: 0/15
+1: 9 8 5 | waste: 0/22
+2: 7 8 | waste: 0/15
+3: 4 5 4 | waste: 0/13
+4: 5 4 7 4 | waste: 0/20
+5: 10 5 10 | waste: 0/25
+6: 7 10 3 | waste: 0/20
+7: 9 7 4 | waste: 0/20
+8: 7 3 3 | waste: 0/13
+9: 9 4 9 | waste: 0/22
+10: 7 5 6 4 | waste: 0/22
+11: 4 8 6 4 | waste: 0/22
+12: 7 6 | waste: 0/13
+13: 10 | waste: 0/10
+14: 7 6 | waste: 0/13
+15: 7 3 | waste: 0/10
+16: 7 3 3 | waste: 0/13
+17: 8 7 7 | waste: 0/22
+18: 10 6 4 | waste: 0/20
+19: 10 | waste: 0/10
+20: 7 7 4 4 | waste: 0/22
+21: 5 8 | waste: 0/13
+fitness: 1 total_wastage: 0 found at: 73
+
+result 13
+0: 10 5 5 | waste: 0/20
+1: 7 3 | waste: 0/10
+2: 7 4 4 | waste: 0/15
+3: 8 5 7 | waste: 0/20
+4: 7 5 6 4 | waste: 0/22
+5: 6 7 7 | waste: 0/20
+6: 7 9 4 | waste: 0/20
+7: 6 4 5 | waste: 0/15
+8: 8 8 4 | waste: 0/20
+9: 7 9 4 | waste: 0/20
+10: 10 | waste: 0/10
+11: 8 7 | waste: 0/15
+12: 10 | waste: 0/10
+13: 7 3 | waste: 0/10
+14: 3 9 4 6 | waste: 0/22
+15: 9 4 | waste: 0/13
+16: 10 3 | waste: 0/13
+17: 7 3 | waste: 0/10
+18: 7 6 7 | waste: 0/20
+19: 10 10 | waste: 0/20
+20: 7 3 | waste: 0/10
+21: 8 8 4 | waste: 0/20
+22: 5 7 4 4 | waste: 0/20
+fitness: 1 total_wastage: 0 found at: 119
+
+result 14
+0: 9 4 | waste: 0/13
+1: 8 7 | waste: 0/15
+2: 9 3 5 4 4 | waste: 0/25
+3: 8 5 7 | waste: 0/20
+4: 8 5 | waste: 0/13
+5: 4 7 4 7 | waste: 0/22
+6: 7 7 7 4 | waste: 0/25
+7: 7 6 | waste: 0/13
+8: 7 10 3 | waste: 0/20
+9: 10 10 | waste: 0/20
+10: 8 3 4 | waste: 0/15
+11: 7 3 | waste: 0/10
+12: 4 5 7 4 5 | waste: 0/25
+13: 7 9 4 | waste: 0/20
+14: 8 6 8 | waste: 0/22
+15: 6 7 | waste: 0/13
+16: 7 5 4 6 | waste: 0/22
+17: 10 | waste: 0/10
+18: 3 9 3 7 | waste: 0/22
+19: 6 4 | waste: 0/10
+20: 10 10 | waste: 0/20
+fitness: 1 total_wastage: 0 found at: 68
+
+result 15
+0: 6 7 | waste: 0/13
+1: 9 8 8 | waste: 0/25
+2: 3 4 6 9 | waste: 0/22
+3: 4 7 4 7 | waste: 0/22
+4: 6 5 7 4 | waste: 0/22
+5: 5 8 | waste: 0/13
+6: 7 8 | waste: 0/15
+7: 4 7 10 4 | waste: 0/25
+8: 7 7 3 3 | waste: 0/20
+9: 5 10 | waste: 0/15
+10: 7 3 10 | waste: 0/20
+11: 5 5 3 | waste: 0/13
+12: 8 4 4 4 | waste: 0/20
+13: 9 10 6 | waste: 0/25
+14: 7 9 4 | waste: 0/20
+15: 8 7 | waste: 0/15
+16: 7 3 | waste: 0/10
+17: 4 7 4 | waste: 0/15
+18: 10 5 | waste: 0/15
+19: 7 6 7 | waste: 0/20
+20: 10 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 44
+
+result 16
+0: 5 5 8 7 | waste: 0/25
+1: 4 9 | waste: 0/13
+2: 7 8 | waste: 0/15
+3: 8 4 3 | waste: 0/15
+4: 4 4 9 5 | waste: 0/22
+5: 6 4 | waste: 0/10
+6: 7 3 | waste: 0/10
+7: 10 8 4 | waste: 0/22
+8: 10 8 7 | waste: 0/25
+9: 6 7 | waste: 0/13
+10: 5 5 | waste: 0/10
+11: 4 7 4 | waste: 0/15
+12: 7 6 6 3 | waste: 0/22
+13: 4 5 4 9 | waste: 0/22
+14: 4 7 7 7 | waste: 0/25
+15: 3 10 | waste: 0/13
+16: 10 | waste: 0/10
+17: 3 3 7 | waste: 0/13
+18: 10 | waste: 0/10
+19: 4 9 | waste: 0/13
+20: 10 | waste: 0/10
+21: 6 7 7 | waste: 0/20
+22: 7 8 7 | waste: 0/22
+fitness: 1 total_wastage: 0 found at: 41
+
+result 17
+0: 7 4 9 | waste: 0/20
+1: 7 6 | waste: 0/13
+2: 3 7 4 4 4 | waste: 0/22
+3: 6 8 3 3 | waste: 0/20
+4: 8 7 | waste: 0/15
+5: 8 7 7 3 | waste: 0/25
+6: 4 7 4 | waste: 0/15
+7: 4 7 10 4 | waste: 0/25
+8: 5 9 7 4 | waste: 0/25
+9: 7 4 3 6 | waste: 0/20
+10: 5 8 | waste: 0/13
+11: 7 5 3 | waste: 0/15
+12: 7 8 | waste: 0/15
+13: 6 4 | waste: 0/10
+14: 10 | waste: 0/10
+15: 10 | waste: 0/10
+16: 10 5 | waste: 0/15
+17: 7 8 7 | waste: 0/22
+18: 5 5 | waste: 0/10
+19: 7 9 4 | waste: 0/20
+20: 6 10 9 | waste: 0/25
+21: 10 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 47
+
+result 18
+0: 7 8 5 | waste: 0/20
+1: 6 4 | waste: 0/10
+2: 7 5 7 6 | waste: 0/25
+3: 10 5 5 | waste: 0/20
+4: 10 7 8 | waste: 0/25
+5: 8 7 | waste: 0/15
+6: 3 3 4 | waste: 0/10
+7: 4 7 5 4 | waste: 0/20
+8: 10 10 | waste: 0/20
+9: 7 7 4 7 | waste: 0/25
+10: 5 4 9 4 | waste: 0/22
+11: 4 9 | waste: 0/13
+12: 6 4 | waste: 0/10
+13: 10 | waste: 0/10
+14: 9 4 | waste: 0/13
+15: 7 8 4 6 | waste: 0/25
+16: 7 3 | waste: 0/10
+17: 6 3 9 4 | waste: 0/22
+18: 8 3 7 7 | waste: 0/25
+19: 10 | waste: 0/10
+20: 3 7 7 8 | waste: 0/25
+fitness: 1 total_wastage: 0 found at: 71
+
+result 19
+0: 4 8 9 4 | waste: 0/25
+1: 4 9 | waste: 0/13
+2: 4 7 7 4 | waste: 0/22
+3: 7 10 8 | waste: 0/25
+4: 8 7 4 3 | waste: 0/22
+5: 9 7 4 | waste: 0/20
+6: 10 | waste: 0/10
+7: 9 5 8 | waste: 0/22
+8: 8 7 5 | waste: 0/20
+9: 7 6 | waste: 0/13
+10: 6 5 4 4 3 | waste: 0/22
+11: 7 3 5 | waste: 0/15
+12: 10 3 | waste: 0/13
+13: 7 6 | waste: 0/13
+14: 7 6 | waste: 0/13
+15: 7 3 | waste: 0/10
+16: 8 7 7 | waste: 0/22
+17: 4 6 | waste: 0/10
+18: 10 5 5 | waste: 0/20
+19: 4 7 4 10 | waste: 0/25
+20: 3 7 | waste: 0/10
+21: 10 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 64
+
+result 20
+0: 10 7 8 | waste: 0/25
+1: 6 7 7 | waste: 0/20
+2: 8 7 5 | waste: 0/20
+3: 9 4 | waste: 0/13
+4: 9 4 9 | waste: 0/22
+5: 3 8 5 4 | waste: 0/20
+6: 10 6 5 4 | waste: 0/25
+7: 7 5 4 4 | waste: 0/20
+8: 3 4 4 7 7 | waste: 0/25
+9: 7 6 | waste: 0/13
+10: 7 8 7 3 | waste: 0/25
+11: 7 8 | waste: 0/15
+12: 8 7 10 | waste: 0/25
+13: 3 3 4 | waste: 0/10
+14: 7 5 6 4 | waste: 0/22
+15: 9 4 7 5 | waste: 0/25
+16: 10 10 | waste: 0/20
+17: 7 3 | waste: 0/10
+18: 6 4 | waste: 0/10
+19: 10 | waste: 0/10
+fitness: 1 total_wastage: 0 found at: 60
+
+
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 
+107, 77, 78, 58, 122, 64, 67, 38, 86, 54, 80, 73, 119, 68, 44, 41, 47, 71, 64, 60 
