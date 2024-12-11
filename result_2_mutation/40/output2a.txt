@@ -1,524 +1,524 @@
 
 result 1
-0: 4 7 4 | waste: 0/15
-1: 10 5 | waste: 0/15
-2: 7 8 | waste: 0/15
-3: 8 7 | waste: 0/15
-4: 10 4 | waste: 1/15
-5: 3 6 3 3 | waste: 0/15
-6: 10 3 | waste: 2/15
-7: 8 7 | waste: 0/15
-8: 6 9 | waste: 0/15
-9: 6 9 | waste: 0/15
-10: 9 6 | waste: 0/15
-11: 9 6 | waste: 0/15
-12: 6 | waste: 9/15
-13: 4 7 4 | waste: 0/15
-14: 9 6 | waste: 0/15
-15: 7 4 4 | waste: 0/15
-16: 10 4 | waste: 1/15
-17: 10 5 | waste: 0/15
-18: 10 5 | waste: 0/15
-19: 10 5 | waste: 0/15
-20: 10 5 | waste: 0/15
-21: 8 7 | waste: 0/15
-22: 8 7 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 112
-
-result 2
-0: 7 4 4 | waste: 0/15
-1: 10 4 | waste: 1/15
-2: 7 8 | waste: 0/15
-3: 10 5 | waste: 0/15
+0: 4 4 7 | waste: 0/15
+1: 4 10 | waste: 1/15
+2: 5 10 | waste: 0/15
+3: 6 9 | waste: 0/15
 4: 7 8 | waste: 0/15
-5: 6 3 3 3 | waste: 0/15
-6: 5 10 | waste: 0/15
-7: 10 3 | waste: 2/15
-8: 9 6 | waste: 0/15
-9: 10 5 | waste: 0/15
-10: 6 | waste: 9/15
-11: 10 5 | waste: 0/15
-12: 4 7 4 | waste: 0/15
-13: 10 5 | waste: 0/15
-14: 7 4 4 | waste: 0/15
-15: 9 6 | waste: 0/15
-16: 7 8 | waste: 0/15
-17: 7 8 | waste: 0/15
-18: 10 4 | waste: 1/15
-19: 9 6 | waste: 0/15
-20: 8 7 | waste: 0/15
-21: 9 6 | waste: 0/15
-22: 9 6 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 209
-
-result 3
-0: 6 3 6 | waste: 0/15
-1: 7 4 4 | waste: 0/15
-2: 7 8 | waste: 0/15
-3: 7 8 | waste: 0/15
-4: 10 5 | waste: 0/15
-5: 10 5 | waste: 0/15
-6: 9 6 | waste: 0/15
-7: 7 8 | waste: 0/15
-8: 9 6 | waste: 0/15
-9: 8 7 | waste: 0/15
-10: 9 6 | waste: 0/15
-11: 10 5 | waste: 0/15
-12: 7 4 4 | waste: 0/15
-13: 10 4 | waste: 1/15
-14: 9 3 3 | waste: 0/15
-15: 10 5 | waste: 0/15
-16: 10 5 | waste: 0/15
-17: 10 3 | waste: 2/15
-18: 10 4 | waste: 1/15
-19: 4 7 4 | waste: 0/15
-20: 6 | waste: 9/15
-21: 9 6 | waste: 0/15
-22: 7 8 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 128
-
-result 4
-0: 7 4 4 | waste: 0/15
-1: 10 4 | waste: 1/15
-2: 7 8 | waste: 0/15
-3: 8 7 | waste: 0/15
-4: 10 3 | waste: 2/15
-5: 7 4 4 | waste: 0/15
-6: 10 5 | waste: 0/15
-7: 9 6 | waste: 0/15
-8: 10 4 | waste: 1/15
-9: 7 4 4 | waste: 0/15
-10: 6 9 | waste: 0/15
-11: 10 5 | waste: 0/15
-12: 3 6 6 | waste: 0/15
-13: 9 6 | waste: 0/15
-14: 10 5 | waste: 0/15
-15: 6 | waste: 9/15
-16: 10 5 | waste: 0/15
-17: 9 6 | waste: 0/15
-18: 9 3 3 | waste: 0/15
-19: 8 7 | waste: 0/15
-20: 10 5 | waste: 0/15
-21: 8 7 | waste: 0/15
-22: 8 7 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 246
-
-result 5
-0: 9 6 | waste: 0/15
-1: 7 8 | waste: 0/15
-2: 10 5 | waste: 0/15
-3: 4 7 4 | waste: 0/15
-4: 9 6 | waste: 0/15
-5: 7 8 | waste: 0/15
-6: 7 8 | waste: 0/15
-7: 10 5 | waste: 0/15
-8: 10 3 | waste: 2/15
-9: 6 | waste: 9/15
-10: 8 7 | waste: 0/15
-11: 8 7 | waste: 0/15
-12: 7 4 4 | waste: 0/15
-13: 4 7 4 | waste: 0/15
-14: 10 4 | waste: 1/15
-15: 10 5 | waste: 0/15
-16: 10 5 | waste: 0/15
-17: 10 5 | waste: 0/15
-18: 3 3 6 3 | waste: 0/15
-19: 9 6 | waste: 0/15
-20: 9 6 | waste: 0/15
-21: 10 4 | waste: 1/15
-22: 6 9 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 319
-
-result 6
-0: 10 5 | waste: 0/15
-1: 10 4 | waste: 1/15
-2: 6 6 3 | waste: 0/15
-3: 10 5 | waste: 0/15
-4: 4 4 7 | waste: 0/15
-5: 8 7 | waste: 0/15
-6: 5 10 | waste: 0/15
-7: 6 9 | waste: 0/15
-8: 10 5 | waste: 0/15
-9: 10 3 | waste: 2/15
-10: 3 9 3 | waste: 0/15
-11: 6 | waste: 9/15
-12: 6 9 | waste: 0/15
-13: 6 9 | waste: 0/15
-14: 6 9 | waste: 0/15
-15: 8 7 | waste: 0/15
-16: 7 4 4 | waste: 0/15
-17: 7 4 4 | waste: 0/15
-18: 5 10 | waste: 0/15
-19: 7 8 | waste: 0/15
-20: 10 4 | waste: 1/15
-21: 8 7 | waste: 0/15
-22: 8 7 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 263
-
-result 7
-0: 3 6 3 3 | waste: 0/15
-1: 7 8 | waste: 0/15
-2: 10 4 | waste: 1/15
-3: 10 3 | waste: 2/15
-4: 10 5 | waste: 0/15
 5: 6 9 | waste: 0/15
 6: 9 6 | waste: 0/15
-7: 6 | waste: 9/15
-8: 7 8 | waste: 0/15
-9: 9 6 | waste: 0/15
-10: 4 7 4 | waste: 0/15
-11: 5 10 | waste: 0/15
-12: 6 9 | waste: 0/15
-13: 8 7 | waste: 0/15
-14: 7 8 | waste: 0/15
-15: 10 5 | waste: 0/15
-16: 9 6 | waste: 0/15
-17: 10 5 | waste: 0/15
-18: 7 4 4 | waste: 0/15
-19: 7 8 | waste: 0/15
-20: 10 4 | waste: 1/15
-21: 7 4 4 | waste: 0/15
-22: 10 5 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 156
-
-result 8
-0: 8 7 | waste: 0/15
-1: 9 3 3 | waste: 0/15
-2: 6 6 3 | waste: 0/15
-3: 10 5 | waste: 0/15
-4: 10 5 | waste: 0/15
-5: 10 3 | waste: 2/15
-6: 7 4 4 | waste: 0/15
-7: 10 4 | waste: 1/15
-8: 7 8 | waste: 0/15
-9: 7 4 4 | waste: 0/15
-10: 9 6 | waste: 0/15
-11: 8 7 | waste: 0/15
-12: 6 | waste: 9/15
-13: 6 9 | waste: 0/15
-14: 6 9 | waste: 0/15
-15: 10 5 | waste: 0/15
-16: 5 10 | waste: 0/15
-17: 10 4 | waste: 1/15
-18: 10 5 | waste: 0/15
-19: 9 6 | waste: 0/15
-20: 8 7 | waste: 0/15
-21: 7 8 | waste: 0/15
-22: 7 4 4 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 205
-
-result 9
-0: 9 6 | waste: 0/15
-1: 4 7 4 | waste: 0/15
-2: 7 4 4 | waste: 0/15
-3: 9 6 | waste: 0/15
-4: 8 7 | waste: 0/15
-5: 10 5 | waste: 0/15
-6: 6 9 | waste: 0/15
-7: 6 6 3 | waste: 0/15
+7: 8 7 | waste: 0/15
 8: 4 7 4 | waste: 0/15
-9: 7 8 | waste: 0/15
+9: 10 5 | waste: 0/15
 10: 5 10 | waste: 0/15
-11: 10 5 | waste: 0/15
-12: 6 | waste: 9/15
-13: 10 3 | waste: 2/15
+11: 7 8 | waste: 0/15
+12: 7 8 | waste: 0/15
+13: 9 6 | waste: 0/15
+14: 5 10 | waste: 0/15
+15: 9 3 3 | waste: 0/15
+16: 6 | waste: 9/15
+17: 8 7 | waste: 0/15
+18: 5 10 | waste: 0/15
+19: 10 3 | waste: 2/15
+20: 3 6 6 | waste: 0/15
+21: 4 7 4 | waste: 0/15
+22: 4 10 | waste: 1/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 303
+
+result 2
+0: 6 9 | waste: 0/15
+1: 4 10 | waste: 1/15
+2: 5 10 | waste: 0/15
+3: 7 4 4 | waste: 0/15
+4: 7 8 | waste: 0/15
+5: 10 5 | waste: 0/15
+6: 3 10 | waste: 2/15
+7: 4 7 4 | waste: 0/15
+8: 4 7 4 | waste: 0/15
+9: 9 6 | waste: 0/15
+10: 7 8 | waste: 0/15
+11: 6 | waste: 9/15
+12: 8 7 | waste: 0/15
+13: 5 10 | waste: 0/15
 14: 10 5 | waste: 0/15
+15: 7 8 | waste: 0/15
+16: 10 4 | waste: 1/15
+17: 3 6 6 | waste: 0/15
+18: 3 9 3 | waste: 0/15
+19: 6 9 | waste: 0/15
+20: 6 9 | waste: 0/15
+21: 7 8 | waste: 0/15
+22: 5 10 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 211
+
+result 3
+0: 10 3 | waste: 2/15
+1: 4 4 7 | waste: 0/15
+2: 3 6 6 | waste: 0/15
+3: 9 6 | waste: 0/15
+4: 10 5 | waste: 0/15
+5: 9 6 | waste: 0/15
+6: 7 | waste: 8/15
+7: 9 6 | waste: 0/15
+8: 5 10 | waste: 0/15
+9: 4 7 4 | waste: 0/15
+10: 9 6 | waste: 0/15
+11: 9 6 | waste: 0/15
+12: 4 7 4 | waste: 0/15
+13: 10 5 | waste: 0/15
+14: 8 7 | waste: 0/15
 15: 8 7 | waste: 0/15
 16: 10 4 | waste: 1/15
-17: 10 4 | waste: 1/15
-18: 7 8 | waste: 0/15
-19: 7 8 | waste: 0/15
-20: 5 10 | waste: 0/15
-21: 9 3 3 | waste: 0/15
-22: 9 6 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 102
+17: 10 5 | waste: 0/15
+18: 10 5 | waste: 0/15
+19: 3 8 4 | waste: 0/15
+20: 8 7 | waste: 0/15
+21: 8 7 | waste: 0/15
+22: 10 3 | waste: 2/15
+fitness: 0.921137 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 176
 
-result 10
-0: 8 7 | waste: 0/15
-1: 9 6 | waste: 0/15
-2: 6 6 3 | waste: 0/15
-3: 4 10 | waste: 1/15
-4: 8 7 | waste: 0/15
-5: 10 5 | waste: 0/15
-6: 7 8 | waste: 0/15
-7: 10 3 | waste: 2/15
-8: 4 7 4 | waste: 0/15
-9: 6 9 | waste: 0/15
-10: 7 4 4 | waste: 0/15
-11: 7 4 4 | waste: 0/15
-12: 6 9 | waste: 0/15
-13: 6 | waste: 9/15
-14: 7 8 | waste: 0/15
-15: 9 3 3 | waste: 0/15
-16: 10 5 | waste: 0/15
-17: 4 10 | waste: 1/15
-18: 5 10 | waste: 0/15
-19: 10 5 | waste: 0/15
-20: 5 10 | waste: 0/15
-21: 9 6 | waste: 0/15
-22: 8 7 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 268
-
-result 11
-0: 3 3 | waste: 9/15
-1: 10 5 | waste: 0/15
-2: 9 6 | waste: 0/15
-3: 7 4 4 | waste: 0/15
+result 4
+0: 6 9 | waste: 0/15
+1: 8 7 | waste: 0/15
+2: 8 7 | waste: 0/15
+3: 4 4 7 | waste: 0/15
 4: 9 6 | waste: 0/15
-5: 8 7 | waste: 0/15
+5: 5 10 | waste: 0/15
+6: 10 5 | waste: 0/15
+7: 10 5 | waste: 0/15
+8: 5 10 | waste: 0/15
+9: 8 7 | waste: 0/15
+10: 7 8 | waste: 0/15
+11: 8 7 | waste: 0/15
+12: 6 9 | waste: 0/15
+13: 4 10 | waste: 1/15
+14: 3 3 | waste: 9/15
+15: 10 3 | waste: 2/15
+16: 4 4 7 | waste: 0/15
+17: 10 5 | waste: 0/15
+18: 6 3 6 | waste: 0/15
+19: 9 6 | waste: 0/15
+20: 4 4 7 | waste: 0/15
+21: 10 4 | waste: 1/15
+22: 9 6 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 429
+
+result 5
+0: 6 9 | waste: 0/15
+1: 4 7 4 | waste: 0/15
+2: 4 8 3 | waste: 0/15
+3: 7 4 4 | waste: 0/15
+4: 3 6 6 | waste: 0/15
+5: 5 10 | waste: 0/15
+6: 7 3 4 | waste: 1/15
+7: 10 3 | waste: 2/15
+8: 5 10 | waste: 0/15
+9: 10 5 | waste: 0/15
+10: 9 6 | waste: 0/15
+11: 4 7 4 | waste: 0/15
+12: 10 5 | waste: 0/15
+13: 5 10 | waste: 0/15
+14: 7 8 | waste: 0/15
+15: 10 | waste: 5/15
+16: 9 6 | waste: 0/15
+17: 10 | waste: 5/15
+18: 6 9 | waste: 0/15
+19: 7 8 | waste: 0/15
+20: 6 9 | waste: 0/15
+21: 7 8 | waste: 0/15
+22: 8 7 | waste: 0/15
+fitness: 0.918668 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 162
+
+result 6
+0: 7 4 4 | waste: 0/15
+1: 9 6 | waste: 0/15
+2: 7 | waste: 8/15
+3: 7 8 | waste: 0/15
+4: 10 5 | waste: 0/15
+5: 10 3 | waste: 2/15
+6: 4 4 7 | waste: 0/15
+7: 8 7 | waste: 0/15
+8: 8 7 | waste: 0/15
+9: 4 10 | waste: 1/15
+10: 5 10 | waste: 0/15
+11: 8 3 4 | waste: 0/15
+12: 10 5 | waste: 0/15
+13: 9 6 | waste: 0/15
+14: 5 10 | waste: 0/15
+15: 7 8 | waste: 0/15
+16: 3 10 | waste: 2/15
+17: 5 10 | waste: 0/15
+18: 9 6 | waste: 0/15
+19: 9 6 | waste: 0/15
+20: 9 6 | waste: 0/15
+21: 3 6 6 | waste: 0/15
+22: 4 4 7 | waste: 0/15
+fitness: 0.921137 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 210
+
+result 7
+0: 7 4 4 | waste: 0/15
+1: 8 7 | waste: 0/15
+2: 8 7 | waste: 0/15
+3: 10 4 | waste: 1/15
+4: 8 7 | waste: 0/15
+5: 9 3 3 | waste: 0/15
+6: 7 4 4 | waste: 0/15
+7: 5 10 | waste: 0/15
+8: 4 4 7 | waste: 0/15
+9: 5 10 | waste: 0/15
+10: 9 6 | waste: 0/15
+11: 6 3 6 | waste: 0/15
+12: 5 10 | waste: 0/15
+13: 7 8 | waste: 0/15
+14: 9 6 | waste: 0/15
+15: 6 9 | waste: 0/15
+16: 6 | waste: 9/15
+17: 10 5 | waste: 0/15
+18: 9 6 | waste: 0/15
+19: 7 8 | waste: 0/15
+20: 10 4 | waste: 1/15
+21: 3 10 | waste: 2/15
+22: 5 10 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 318
+
+result 8
+0: 10 5 | waste: 0/15
+1: 7 8 | waste: 0/15
+2: 3 10 | waste: 2/15
+3: 4 7 4 | waste: 0/15
+4: 6 3 6 | waste: 0/15
+5: 4 4 7 | waste: 0/15
 6: 8 7 | waste: 0/15
 7: 7 8 | waste: 0/15
 8: 10 5 | waste: 0/15
 9: 10 4 | waste: 1/15
-10: 5 10 | waste: 0/15
-11: 7 8 | waste: 0/15
-12: 10 5 | waste: 0/15
-13: 9 6 | waste: 0/15
-14: 10 5 | waste: 0/15
-15: 4 7 4 | waste: 0/15
-16: 7 8 | waste: 0/15
-17: 6 6 3 | waste: 0/15
+10: 4 7 4 | waste: 0/15
+11: 10 5 | waste: 0/15
+12: 10 4 | waste: 1/15
+13: 9 3 3 | waste: 0/15
+14: 6 9 | waste: 0/15
+15: 9 6 | waste: 0/15
+16: 9 6 | waste: 0/15
+17: 8 7 | waste: 0/15
+18: 5 10 | waste: 0/15
+19: 8 7 | waste: 0/15
+20: 10 5 | waste: 0/15
+21: 9 6 | waste: 0/15
+22: 6 | waste: 9/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 132
+
+result 9
+0: 5 10 | waste: 0/15
+1: 5 10 | waste: 0/15
+2: 4 7 4 | waste: 0/15
+3: 6 9 | waste: 0/15
+4: 4 4 7 | waste: 0/15
+5: 3 9 3 | waste: 0/15
+6: 10 4 | waste: 1/15
+7: 5 10 | waste: 0/15
+8: 10 5 | waste: 0/15
+9: 9 6 | waste: 0/15
+10: 7 8 | waste: 0/15
+11: 4 10 | waste: 1/15
+12: 6 | waste: 9/15
+13: 7 8 | waste: 0/15
+14: 6 9 | waste: 0/15
+15: 10 5 | waste: 0/15
+16: 6 6 3 | waste: 0/15
+17: 9 6 | waste: 0/15
+18: 10 3 | waste: 2/15
+19: 7 4 4 | waste: 0/15
+20: 8 7 | waste: 0/15
+21: 7 8 | waste: 0/15
+22: 7 8 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 124
+
+result 10
+0: 6 9 | waste: 0/15
+1: 6 3 6 | waste: 0/15
+2: 5 10 | waste: 0/15
+3: 5 10 | waste: 0/15
+4: 9 6 | waste: 0/15
+5: 9 6 | waste: 0/15
+6: 10 5 | waste: 0/15
+7: 8 3 4 | waste: 0/15
+8: 10 5 | waste: 0/15
+9: 8 7 | waste: 0/15
+10: 9 6 | waste: 0/15
+11: 10 5 | waste: 0/15
+12: 4 4 7 | waste: 0/15
+13: 8 7 | waste: 0/15
+14: 7 | waste: 8/15
+15: 8 7 | waste: 0/15
+16: 9 6 | waste: 0/15
+17: 7 4 4 | waste: 0/15
 18: 7 4 4 | waste: 0/15
-19: 9 6 | waste: 0/15
-20: 9 6 | waste: 0/15
-21: 10 4 | waste: 1/15
+19: 3 10 | waste: 2/15
+20: 4 10 | waste: 1/15
+21: 8 7 | waste: 0/15
 22: 10 3 | waste: 2/15
-fitness: 0.923748 total_wastage: 13 found at: 198
+fitness: 0.921137 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 129
+
+result 11
+0: 8 7 | waste: 0/15
+1: 5 10 | waste: 0/15
+2: 10 5 | waste: 0/15
+3: 6 | waste: 9/15
+4: 10 4 | waste: 1/15
+5: 7 8 | waste: 0/15
+6: 10 5 | waste: 0/15
+7: 9 6 | waste: 0/15
+8: 4 10 | waste: 1/15
+9: 10 5 | waste: 0/15
+10: 4 7 4 | waste: 0/15
+11: 10 5 | waste: 0/15
+12: 9 6 | waste: 0/15
+13: 9 6 | waste: 0/15
+14: 3 6 6 | waste: 0/15
+15: 6 9 | waste: 0/15
+16: 3 9 3 | waste: 0/15
+17: 7 8 | waste: 0/15
+18: 3 10 | waste: 2/15
+19: 7 8 | waste: 0/15
+20: 4 7 4 | waste: 0/15
+21: 8 7 | waste: 0/15
+22: 7 4 4 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 253
 
 result 12
 0: 9 6 | waste: 0/15
-1: 7 8 | waste: 0/15
-2: 4 10 | waste: 1/15
-3: 8 7 | waste: 0/15
-4: 6 9 | waste: 0/15
-5: 7 4 4 | waste: 0/15
-6: 7 4 4 | waste: 0/15
-7: 9 3 3 | waste: 0/15
-8: 8 7 | waste: 0/15
-9: 10 5 | waste: 0/15
-10: 10 5 | waste: 0/15
-11: 7 4 4 | waste: 0/15
-12: 7 8 | waste: 0/15
-13: 7 8 | waste: 0/15
-14: 6 | waste: 9/15
-15: 5 10 | waste: 0/15
-16: 10 5 | waste: 0/15
-17: 10 3 | waste: 2/15
-18: 6 6 3 | waste: 0/15
-19: 10 4 | waste: 1/15
+1: 4 7 4 | waste: 0/15
+2: 6 9 | waste: 0/15
+3: 10 5 | waste: 0/15
+4: 5 10 | waste: 0/15
+5: 6 3 6 | waste: 0/15
+6: 9 3 3 | waste: 0/15
+7: 4 4 7 | waste: 0/15
+8: 10 4 | waste: 1/15
+9: 8 7 | waste: 0/15
+10: 10 4 | waste: 1/15
+11: 8 7 | waste: 0/15
+12: 5 10 | waste: 0/15
+13: 10 5 | waste: 0/15
+14: 8 7 | waste: 0/15
+15: 4 4 7 | waste: 0/15
+16: 8 7 | waste: 0/15
+17: 8 7 | waste: 0/15
+18: 6 | waste: 9/15
+19: 3 10 | waste: 2/15
 20: 10 5 | waste: 0/15
 21: 9 6 | waste: 0/15
 22: 9 6 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 389
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 278
 
 result 13
-0: 10 5 | waste: 0/15
-1: 10 4 | waste: 1/15
-2: 7 4 4 | waste: 0/15
-3: 9 6 | waste: 0/15
+0: 6 9 | waste: 0/15
+1: 4 7 4 | waste: 0/15
+2: 7 8 | waste: 0/15
+3: 10 4 | waste: 1/15
 4: 10 5 | waste: 0/15
 5: 10 5 | waste: 0/15
-6: 10 5 | waste: 0/15
-7: 7 8 | waste: 0/15
-8: 4 7 4 | waste: 0/15
-9: 7 4 4 | waste: 0/15
-10: 9 6 | waste: 0/15
-11: 6 6 3 | waste: 0/15
-12: 7 8 | waste: 0/15
-13: 10 5 | waste: 0/15
-14: 9 3 3 | waste: 0/15
-15: 6 | waste: 9/15
-16: 9 6 | waste: 0/15
-17: 9 6 | waste: 0/15
-18: 7 8 | waste: 0/15
-19: 10 3 | waste: 2/15
-20: 7 8 | waste: 0/15
-21: 10 4 | waste: 1/15
-22: 8 7 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 121
+6: 8 7 | waste: 0/15
+7: 8 7 | waste: 0/15
+8: 6 9 | waste: 0/15
+9: 10 5 | waste: 0/15
+10: 4 7 4 | waste: 0/15
+11: 8 7 | waste: 0/15
+12: 8 7 | waste: 0/15
+13: 9 6 | waste: 0/15
+14: 7 4 4 | waste: 0/15
+15: 4 10 | waste: 1/15
+16: 3 6 6 | waste: 0/15
+17: 3 3 | waste: 9/15
+18: 10 5 | waste: 0/15
+19: 3 10 | waste: 2/15
+20: 5 10 | waste: 0/15
+21: 9 6 | waste: 0/15
+22: 6 9 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 400
 
 result 14
-0: 5 10 | waste: 0/15
-1: 8 7 | waste: 0/15
+0: 4 4 7 | waste: 0/15
+1: 5 10 | waste: 0/15
 2: 8 7 | waste: 0/15
-3: 9 6 | waste: 0/15
-4: 10 5 | waste: 0/15
+3: 6 | waste: 9/15
+4: 5 10 | waste: 0/15
 5: 8 7 | waste: 0/15
-6: 8 7 | waste: 0/15
-7: 10 5 | waste: 0/15
-8: 7 4 4 | waste: 0/15
-9: 10 3 | waste: 2/15
-10: 10 4 | waste: 1/15
-11: 3 3 | waste: 9/15
-12: 9 6 | waste: 0/15
-13: 9 6 | waste: 0/15
-14: 10 4 | waste: 1/15
-15: 10 5 | waste: 0/15
-16: 10 5 | waste: 0/15
-17: 9 6 | waste: 0/15
-18: 8 7 | waste: 0/15
-19: 6 6 3 | waste: 0/15
-20: 9 6 | waste: 0/15
-21: 7 4 4 | waste: 0/15
-22: 7 4 4 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 409
+6: 10 5 | waste: 0/15
+7: 6 9 | waste: 0/15
+8: 4 7 4 | waste: 0/15
+9: 5 10 | waste: 0/15
+10: 4 10 | waste: 1/15
+11: 7 8 | waste: 0/15
+12: 10 5 | waste: 0/15
+13: 3 10 | waste: 2/15
+14: 4 7 4 | waste: 0/15
+15: 7 8 | waste: 0/15
+16: 8 7 | waste: 0/15
+17: 10 4 | waste: 1/15
+18: 6 6 3 | waste: 0/15
+19: 6 9 | waste: 0/15
+20: 3 9 3 | waste: 0/15
+21: 6 9 | waste: 0/15
+22: 9 6 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 260
 
 result 15
 0: 9 3 3 | waste: 0/15
 1: 9 6 | waste: 0/15
-2: 6 9 | waste: 0/15
-3: 10 5 | waste: 0/15
-4: 10 4 | waste: 1/15
-5: 10 5 | waste: 0/15
-6: 7 8 | waste: 0/15
-7: 7 4 4 | waste: 0/15
-8: 8 7 | waste: 0/15
-9: 8 7 | waste: 0/15
-10: 10 3 | waste: 2/15
-11: 10 5 | waste: 0/15
-12: 3 6 6 | waste: 0/15
-13: 9 6 | waste: 0/15
-14: 4 7 4 | waste: 0/15
-15: 10 5 | waste: 0/15
-16: 10 4 | waste: 1/15
-17: 7 8 | waste: 0/15
-18: 9 6 | waste: 0/15
-19: 7 4 4 | waste: 0/15
-20: 6 | waste: 9/15
-21: 10 5 | waste: 0/15
-22: 7 8 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 270
+2: 7 4 4 | waste: 0/15
+3: 7 8 | waste: 0/15
+4: 4 7 4 | waste: 0/15
+5: 6 3 6 | waste: 0/15
+6: 9 6 | waste: 0/15
+7: 8 7 | waste: 0/15
+8: 5 10 | waste: 0/15
+9: 5 10 | waste: 0/15
+10: 4 7 4 | waste: 0/15
+11: 3 6 6 | waste: 0/15
+12: 5 10 | waste: 0/15
+13: 9 | waste: 6/15
+14: 10 4 | waste: 1/15
+15: 5 10 | waste: 0/15
+16: 7 8 | waste: 0/15
+17: 9 6 | waste: 0/15
+18: 7 8 | waste: 0/15
+19: 10 | waste: 5/15
+20: 10 5 | waste: 0/15
+21: 8 7 | waste: 0/15
+22: 4 10 | waste: 1/15
+fitness: 0.920828 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 367
 
 result 16
 0: 4 7 4 | waste: 0/15
-1: 8 7 | waste: 0/15
-2: 3 9 3 | waste: 0/15
-3: 10 5 | waste: 0/15
-4: 10 4 | waste: 1/15
-5: 6 9 | waste: 0/15
-6: 10 4 | waste: 1/15
-7: 6 | waste: 9/15
-8: 7 4 4 | waste: 0/15
-9: 10 5 | waste: 0/15
-10: 6 6 3 | waste: 0/15
-11: 9 6 | waste: 0/15
-12: 8 7 | waste: 0/15
-13: 7 8 | waste: 0/15
-14: 10 5 | waste: 0/15
-15: 10 3 | waste: 2/15
-16: 9 6 | waste: 0/15
-17: 7 4 4 | waste: 0/15
-18: 10 5 | waste: 0/15
-19: 10 5 | waste: 0/15
-20: 7 8 | waste: 0/15
-21: 9 6 | waste: 0/15
-22: 8 7 | waste: 0/15
-fitness: 0.923748 total_wastage: 13 found at: 142
+1: 10 5 | waste: 0/15
+2: 8 3 4 | waste: 0/15
+3: 3 8 4 | waste: 0/15
+4: 8 7 | waste: 0/15
+5: 8 7 | waste: 0/15
+6: 6 9 | waste: 0/15
+7: 3 10 | waste: 2/15
+8: 6 6 3 | waste: 0/15
+9: 4 7 4 | waste: 0/15
+10: 9 6 | waste: 0/15
+11: 6 9 | waste: 0/15
+12: 10 5 | waste: 0/15
+13: 10 | waste: 5/15
+14: 5 10 | waste: 0/15
+15: 6 9 | waste: 0/15
+16: 5 10 | waste: 0/15
+17: 4 7 4 | waste: 0/15
+18: 7 7 | waste: 1/15
+19: 8 7 | waste: 0/15
+20: 10 | waste: 5/15
+21: 6 9 | waste: 0/15
+22: 10 5 | waste: 0/15
+fitness: 0.918668 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 88
 
 result 17
-0: 9 3 3 | waste: 0/15
-1: 10 5 | waste: 0/15
-2: 8 7 | waste: 0/15
-3: 7 4 4 | waste: 0/15
-4: 10 5 | waste: 0/15
-5: 7 8 | waste: 0/15
-6: 10 3 | waste: 2/15
-7: 4 4 7 | waste: 0/15
-8: 10 4 | waste: 1/15
-9: 7 8 | waste: 0/15
-10: 6 9 | waste: 0/15
-11: 6 6 3 | waste: 0/15
-12: 6 9 | waste: 0/15
-13: 10 5 | waste: 0/15
-14: 6 | waste: 9/15
-15: 7 4 4 | waste: 0/15
-16: 5 10 | waste: 0/15
-17: 6 9 | waste: 0/15
-18: 10 5 | waste: 0/15
-19: 9 6 | waste: 0/15
-20: 8 7 | waste: 0/15
-21: 7 8 | waste: 0/15
-22: 10 4 | waste: 1/15
-fitness: 0.923748 total_wastage: 13 found at: 191
-
-result 18
-0: 7 4 4 | waste: 0/15
-1: 8 7 | waste: 0/15
-2: 10 5 | waste: 0/15
-3: 9 6 | waste: 0/15
-4: 6 9 | waste: 0/15
-5: 7 8 | waste: 0/15
+0: 9 6 | waste: 0/15
+1: 5 10 | waste: 0/15
+2: 9 6 | waste: 0/15
+3: 4 10 | waste: 1/15
+4: 8 7 | waste: 0/15
+5: 7 | waste: 8/15
 6: 6 6 3 | waste: 0/15
-7: 9 6 | waste: 0/15
-8: 7 8 | waste: 0/15
-9: 6 | waste: 9/15
-10: 9 3 3 | waste: 0/15
-11: 9 6 | waste: 0/15
-12: 7 8 | waste: 0/15
-13: 10 5 | waste: 0/15
-14: 8 7 | waste: 0/15
-15: 10 3 | waste: 2/15
-16: 10 4 | waste: 1/15
-17: 5 10 | waste: 0/15
-18: 5 10 | waste: 0/15
-19: 4 7 4 | waste: 0/15
-20: 5 10 | waste: 0/15
-21: 7 4 4 | waste: 0/15
-22: 10 4 | waste: 1/15
-fitness: 0.923748 total_wastage: 13 found at: 337
-
-result 19
-0: 7 4 4 | waste: 0/15
-1: 8 7 | waste: 0/15
-2: 7 8 | waste: 0/15
-3: 4 4 4 3 | waste: 0/15
-4: 6 6 3 | waste: 0/15
-5: 6 9 | waste: 0/15
-6: 9 6 | waste: 0/15
-7: 6 9 | waste: 0/15
-8: 10 5 | waste: 0/15
-9: 8 7 | waste: 0/15
-10: 7 8 | waste: 0/15
-11: 9 6 | waste: 0/15
-12: 3 10 | waste: 2/15
-13: 7 4 4 | waste: 0/15
+7: 4 4 3 4 | waste: 0/15
+8: 8 7 | waste: 0/15
+9: 7 8 | waste: 0/15
+10: 3 10 | waste: 2/15
+11: 4 7 4 | waste: 0/15
+12: 9 6 | waste: 0/15
+13: 10 3 | waste: 2/15
 14: 10 5 | waste: 0/15
 15: 10 5 | waste: 0/15
-16: 10 4 | waste: 1/15
-17: 10 3 | waste: 2/15
-18: 7 | waste: 8/15
+16: 10 5 | waste: 0/15
+17: 6 9 | waste: 0/15
+18: 8 7 | waste: 0/15
+19: 5 10 | waste: 0/15
+20: 7 4 4 | waste: 0/15
+21: 6 9 | waste: 0/15
+22: 7 8 | waste: 0/15
+fitness: 0.921137 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 375
+
+result 18
+0: 3 9 3 | waste: 0/15
+1: 4 7 4 | waste: 0/15
+2: 9 6 | waste: 0/15
+3: 8 7 | waste: 0/15
+4: 10 5 | waste: 0/15
+5: 4 7 4 | waste: 0/15
+6: 8 7 | waste: 0/15
+7: 5 10 | waste: 0/15
+8: 9 6 | waste: 0/15
+9: 6 6 3 | waste: 0/15
+10: 8 7 | waste: 0/15
+11: 6 | waste: 9/15
+12: 9 6 | waste: 0/15
+13: 5 10 | waste: 0/15
+14: 5 10 | waste: 0/15
+15: 4 10 | waste: 1/15
+16: 8 7 | waste: 0/15
+17: 4 7 4 | waste: 0/15
+18: 5 10 | waste: 0/15
+19: 7 8 | waste: 0/15
+20: 10 4 | waste: 1/15
+21: 3 10 | waste: 2/15
+22: 6 9 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 251
+
+result 19
+0: 8 7 | waste: 0/15
+1: 5 10 | waste: 0/15
+2: 10 5 | waste: 0/15
+3: 4 7 4 | waste: 0/15
+4: 4 4 7 | waste: 0/15
+5: 8 7 | waste: 0/15
+6: 7 8 | waste: 0/15
+7: 4 4 7 | waste: 0/15
+8: 3 6 6 | waste: 0/15
+9: 9 3 3 | waste: 0/15
+10: 7 8 | waste: 0/15
+11: 7 8 | waste: 0/15
+12: 9 6 | waste: 0/15
+13: 9 6 | waste: 0/15
+14: 10 4 | waste: 1/15
+15: 6 | waste: 9/15
+16: 9 6 | waste: 0/15
+17: 5 10 | waste: 0/15
+18: 6 9 | waste: 0/15
 19: 10 5 | waste: 0/15
-20: 10 5 | waste: 0/15
-21: 8 7 | waste: 0/15
-22: 9 6 | waste: 0/15
-fitness: 0.921137 total_wastage: 13 found at: 229
+20: 3 10 | waste: 2/15
+21: 4 10 | waste: 1/15
+22: 10 5 | waste: 0/15
+fitness: 0.923748 total_wastage: 13 num_stock_have_wastage: 4/23 found at: 407
 
 result 20
-0: 6 3 6 | waste: 0/15
-1: 9 6 | waste: 0/15
-2: 10 5 | waste: 0/15
-3: 7 8 | waste: 0/15
-4: 7 8 | waste: 0/15
-5: 9 3 3 | waste: 0/15
-6: 10 3 | waste: 2/15
-7: 7 4 4 | waste: 0/15
-8: 9 6 | waste: 0/15
-9: 5 10 | waste: 0/15
-10: 10 5 | waste: 0/15
-11: 10 5 | waste: 0/15
-12: 7 8 | waste: 0/15
-13: 8 7 | waste: 0/15
-14: 4 4 7 | waste: 0/15
+0: 3 4 4 4 | waste: 0/15
+1: 3 6 6 | waste: 0/15
+2: 6 9 | waste: 0/15
+3: 10 5 | waste: 0/15
+4: 4 10 | waste: 1/15
+5: 7 8 | waste: 0/15
+6: 7 8 | waste: 0/15
+7: 7 8 | waste: 0/15
+8: 4 10 | waste: 1/15
+9: 9 6 | waste: 0/15
+10: 7 8 | waste: 0/15
+11: 4 10 | waste: 1/15
+12: 7 7 | waste: 1/15
+13: 3 9 3 | waste: 0/15
+14: 9 6 | waste: 0/15
 15: 8 7 | waste: 0/15
-16: 7 4 4 | waste: 0/15
-17: 5 10 | waste: 0/15
-18: 10 4 | waste: 1/15
-19: 10 4 | waste: 1/15
+16: 10 5 | waste: 0/15
+17: 6 | waste: 9/15
+18: 10 5 | waste: 0/15
+19: 7 4 4 | waste: 0/15
 20: 6 9 | waste: 0/15
-21: 6 9 | waste: 0/15
-22: 6 | waste: 9/15
-fitness: 0.923748 total_wastage: 13 found at: 171
+21: 5 10 | waste: 0/15
+22: 10 5 | waste: 0/15
+fitness: 0.915634 total_wastage: 13 num_stock_have_wastage: 5/23 found at: 221
 
 
-0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.923748, 0.921137, 0.923748 
-112, 209, 128, 246, 319, 263, 156, 205, 102, 268, 198, 389, 121, 409, 270, 142, 191, 337, 229, 171 
+0.923748, 0.923748, 0.921137, 0.923748, 0.918668, 0.921137, 0.923748, 0.923748, 0.923748, 0.921137, 0.923748, 0.923748, 0.923748, 0.923748, 0.920828, 0.918668, 0.921137, 0.923748, 0.923748, 0.915634 
+303, 211, 176, 429, 162, 210, 318, 132, 124, 129, 253, 278, 400, 260, 367, 88, 375, 251, 407, 221 

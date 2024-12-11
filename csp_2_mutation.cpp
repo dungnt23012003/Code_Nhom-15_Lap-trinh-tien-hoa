@@ -153,20 +153,35 @@ vector<vector<int>> grouping(const Problem& problem, vector<int> a){
     int stock_length_tmp;
     int num_item_cut = 0;
 
-    while(num_item_cut<a.size()){
-        stock_length_tmp=problem.stock_length[distribution(random_engine)];
-        for(int i=0;i<a.size();i++){
-            if(is_cut[i] || stock_length_tmp < a[i]){
-                continue;
-            }
+    // while(num_item_cut<a.size()){
+    //     stock_length_tmp=problem.stock_length[distribution(random_engine)];
+    //     for(int i=0;i<a.size();i++){
+    //         if(is_cut[i] || stock_length_tmp < a[i]){
+    //             continue;
+    //         }
             
+    //         gene_tmp.push_back(a[i]);
+    //         num_item_cut++;
+    //         is_cut[i]=true;
+    //         stock_length_tmp -= a[i];
+    //     }
+    //     chromosome.push_back(move(gene_tmp));
+    // }
+    stock_length_tmp=problem.stock_length[distribution(random_engine)];
+    for(int i=0;i<a.size();i++){
+        if(stock_length_tmp<a[i]){
+            chromosome.push_back(move(gene_tmp));
+            stock_length_tmp=problem.stock_length[distribution(random_engine)];
             gene_tmp.push_back(a[i]);
-            num_item_cut++;
-            is_cut[i]=true;
             stock_length_tmp -= a[i];
         }
-        chromosome.push_back(move(gene_tmp));
+        else{
+            gene_tmp.push_back(a[i]);
+            stock_length_tmp -= a[i];
+        }
+
     }
+    chromosome.push_back(move(gene_tmp));
 
     return chromosome;
     
@@ -293,40 +308,59 @@ vector<vector<int>> mutation2(const Problem& problem, const vector<vector<int>>&
             check[chromosome_parent[i][j]]++;
         }
     }
-
+    int scaling_factor = 100;
+    
+    vector<double> all_wastage;
+    for(int i=0;i<chromosome_parent.size();i++){
+        pair<int, int> wastage_tmp = wastage(problem, chromosome_parent[i]);
+        all_wastage.push_back(wastage_tmp.first);
+        
+    }
 
     vector<int> probability;
     for(int i=0;i<chromosome_parent.size();i++){
-        probability.push_back(1);
+        probability.push_back((int)(1.0-1.0*generation/max_generation)*scaling_factor*all_wastage[i] + 1);
     }
 
+
+
+    discrete_distribution<> distribution(probability.begin(), probability.end());
+    int first_random_index = distribution(random_engine);
+    probability[first_random_index]=0;
     
-    map<int, int> index_to_regroup;
-    
-    for(int i=1;i<=chromosome_parent.size()/3;i++){
-        discrete_distribution<> distribution(probability.begin(), probability.end());
-        int tmp = distribution(random_engine);
-        index_to_regroup[tmp]=1;
-        probability[tmp]=0;
+    discrete_distribution<> new_distribution(probability.begin(), probability.end());
+    int second_random_index = new_distribution(random_engine);
+
+    while(first_random_index==second_random_index){
+        cout << generation << " \n";
     }
 
+    if(first_random_index>second_random_index){
+        swap(first_random_index, second_random_index);
+    }
     
-    vector<int> item_to_regrouping;
+
     vector<vector<int>> chromosome;
 
+    vector<int> item_to_grouping;
+
+    for(int i=0;i<chromosome_parent[first_random_index].size();i++){
+        item_to_grouping.push_back(chromosome_parent[first_random_index][i]);
+    }
+
+    for(int i=0;i<chromosome_parent[second_random_index].size();i++){
+        item_to_grouping.push_back(chromosome_parent[second_random_index][i]);
+    }
+
+    shuffle(item_to_grouping.begin(), item_to_grouping.end(), random_engine);
+
     for(int i=0;i<chromosome_parent.size();i++){
-        if(index_to_regroup[i]){
-            for(int j=0;j<chromosome_parent[i].size();j++){
-                item_to_regrouping.push_back(chromosome_parent[i][j]);
-            }
-        }
-        else{
+        if(i!=first_random_index && i!=second_random_index){
             chromosome.push_back(chromosome_parent[i]);
         }
     }
 
-    shuffle(item_to_regrouping.begin(), item_to_regrouping.end(), random_engine);
-    vector<vector<int>> chromosome_grouping = grouping(problem, item_to_regrouping);
+    vector<vector<int>> chromosome_grouping = grouping(problem, item_to_grouping);
     for (int i = 0; i < chromosome_grouping.size(); i++) {
         chromosome.push_back(move(chromosome_grouping[i]));
     }
@@ -353,6 +387,7 @@ vector<vector<int>> mutation2(const Problem& problem, const vector<vector<int>>&
                 cout << "\n";
             }
             cout << "\n";
+            cout << "index swap " << first_random_index << " " << second_random_index << " " << k << "\n";
         }
     }
 
@@ -367,7 +402,7 @@ public:
     int population_size = 100;
     int max_generation = 1000;
     double elitist_percentage = 0.3;
-    int time_not_improve = 1000/4;
+    double percentage_mutation = 0.5;
     bool with_contiguity = false;
     vector<vector<int>> (*mutation)(const Problem& problem, const vector<vector<int>>& chromosome, int generation, int max_generation) = mutation;
     vector<vector<int>> (*mutation2)(const Problem& problem, const vector<vector<int>>& chromosome, int generation, int max_generation) = mutation2;
@@ -408,7 +443,7 @@ vector<Individual> create_random_population(const EvolutionalProgramingOption& o
 
 vector<Individual> create_offsprings(const vector<Individual>& population, const EvolutionalProgramingOption& option, int generation){
     vector<Individual> offsprings;
-    discrete_distribution<> distribution(8, 2);
+    discrete_distribution<> distribution( option.percentage_mutation*100, 100-option.percentage_mutation*100);
 
     offsprings.reserve(population.size());
     for (int i = 0; i < population.size(); i++) {
@@ -445,6 +480,7 @@ void next_generation(vector<Individual>& population, const EvolutionalPrograming
 void print_solution(const Individual& individual, const EvolutionalProgramingOption& option){
     cout << "\n";
     int total_wastage=0;
+    int num_stock_have_wastage = 0;
     vector<int> item_need_to_cut = option.problem.num_item_each_length;
     int num_open=0;
     set<int> item_current_cut;
@@ -462,6 +498,9 @@ void print_solution(const Individual& individual, const EvolutionalProgramingOpt
             cout << individual.chromosome[i][j] << " ";
         }
         pair<int, int> waste = wastage(option.problem, individual.chromosome[i]);
+        if(waste.first>0){
+            num_stock_have_wastage++;
+        }
         total_wastage = total_wastage + waste.first;
         cout << "| waste: " << waste.first << "/" << waste.second;
         if(option.with_contiguity){
@@ -471,9 +510,9 @@ void print_solution(const Individual& individual, const EvolutionalProgramingOpt
             cout << "\n";
         }
     }
-    cout << "fitness: " << individual.fitness << " total_wastage: " << total_wastage << " ";
+    cout << "fitness: " << individual.fitness << " total_wastage: " << total_wastage << " num_stock_have_wastage: " << num_stock_have_wastage<< "/" << individual.chromosome.size() << " ";
 }
-Individual EP_solve_TSP(const EvolutionalProgramingOption& option){
+Individual EP_solve_CSP(const EvolutionalProgramingOption& option){
     vector<Individual> population = create_random_population(option, option.population_size);
 
     int generation =1;
@@ -503,17 +542,17 @@ Individual EP_solve_TSP(const EvolutionalProgramingOption& option){
 }
 int main(){
 
-    freopen("result_2_mutation/40/output1a.txt", "w", stdout);
-    Problem problem = Problem::from_file("dataset_csp/problem1a.csp");
+    freopen("result_2_mutation/40/output2a.txt", "w", stdout);
+    Problem problem = Problem::from_file("dataset_csp/problem2a.csp");
 
     EvolutionalProgramingOption option(problem);
 
     option.population_size = 40;
-    option.max_generation = 50;
+    option.max_generation = 500;
     option.elitist_percentage = 0.5;
     option.mutation = mutation;
     option.mutation2 = mutation2;
-    option.time_not_improve = option.max_generation/3;
+    option.percentage_mutation = 0.75;
     option.with_contiguity = false;
     option.fitness = fitness_without_contiguity;
     double result_tmp[20];
@@ -521,7 +560,7 @@ int main(){
     for(int i=0;i<20;i++){
         found_at = -1;
         best = -1;
-        Individual result = EP_solve_TSP(option);
+        Individual result = EP_solve_CSP(option);
         cout << "\nresult " << i+1;
         print_solution(result, option);
         cout << "found at: " << found_at << "\n";
