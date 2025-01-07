@@ -386,7 +386,7 @@ void print_solution(const Individual& individual, const EvolutionalProgramingOpt
     }
     cout << "fitness: " << individual.fitness << " total_wastage: " << total_wastage << " ";
 }
-Individual EP_solve_TSP(const EvolutionalProgramingOption& option){
+Individual EP_solve_CSP(const EvolutionalProgramingOption& option){
     vector<Individual> population = create_random_population(option, option.population_size);
 
     int generation =1;
@@ -411,23 +411,28 @@ Individual EP_solve_TSP(const EvolutionalProgramingOption& option){
 }
 int main(){
 
-    freopen("result/output4a.txt", "w", stdout);
-    Problem problem = Problem::from_file("D:/c++/EvolutionalComputation/dataset_csp/problem4a.csp");
+
+    freopen("result/40/output5a.txt", "w", stdout);
+    Problem problem = Problem::from_file("dataset_csp/problem5a.csp");
 
     EvolutionalProgramingOption option(problem);
-
-    option.population_size = 75;
-    option.max_generation = 1184;
+    
+    int num_run = 20;
+    option.population_size = 40;
+    option.max_generation = 1000;
     option.elitist_percentage = 0.5;
+
     option.mutation = mutation;
     option.with_contiguity = false;
     option.fitness = fitness_without_contiguity;
+    
+    
     double result_tmp[20];
     int found_at_tmp[20]; 
-    for(int i=0;i<20;i++){
+    for(int i=0;i<num_run;i++){
         found_at = -1;
         best = -1;
-        Individual result = EP_solve_TSP(option);
+        Individual result = EP_solve_CSP(option);
         cout << "\nresult " << i+1;
         print_solution(result, option);
         cout << "found at: " << found_at << "\n";
@@ -435,11 +440,11 @@ int main(){
         found_at_tmp[i]=found_at;
     }
     cout << "\n\n";
-    for(int i=0;i<20;i++){
-        cout << result_tmp[i] <<  ", "[i==19] << " \n"[i==19];
+    for(int i=0;i<num_run;i++){
+        cout << result_tmp[i] <<  ", "[i==num_run-1] << " \n"[i==num_run-1];
     }
-    for(int i=0;i<20;i++){
-        cout << found_at_tmp[i] << ", "[i==19] << " \n"[i==19];
+    for(int i=0;i<num_run;i++){
+        cout << found_at_tmp[i] << ", "[i==num_run-1] << " \n"[i==num_run-1];
     }
     return 0;
 }
