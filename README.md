@@ -1,5 +1,4 @@
 # Code_Nhom-15_Lap-trinh-tien-hoa
-## Dataset có sẵn nằm trong thu mục csp_dataset
 ## Chạy code
 
 1. Chỉnh sửa tham số trong file csp.cpp
